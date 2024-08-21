@@ -1,0 +1,162 @@
+/* Box sizing */
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+/* Remove default margins and paddings */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+dl,
+dd,
+figure,
+pre {
+  margin: 0;
+  padding: 0;
+}
+
+/* Remove list styles */
+ul,
+ol {
+  list-style: none;
+}
+
+/* Remove default spacing for paragraphs */
+p {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+/* Remove default spacing for headings */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+/* Remove default spacing for lists */
+ul,
+ol,
+dl {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+/* Remove default styling for form elements */
+input,
+textarea,
+button,
+select {
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+  background: none;
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+}
+
+/* Remove default styling for anchor tags */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Remove default styling for images */
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/* Remove default styling for tables */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* custom style */
+
+body {
+  position: relative;
+  max-width: 100%;
+  height: 100vh;
+  background-color: rgb(80, 113, 146);
+  font-family: "Times New Roman", Times, serif;
+}
+
+.upper-color-box {
+  width: 100%;
+  height: 50vh;
+  background-color: rgb(60, 59, 59);
+}
+
+
+.content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 50%;
+  margin: 0 auto;
+  background-color: aliceblue;
+  text-align: center;
+  box-shadow: 0 0 15px 5px rgba(0, 0, 0, 0.5);
+}
+
+.content-upper-color-box {
+  position: relative;
+  width: 100%;
+  height: 5rem;
+  background-color: rgb(80, 113, 146);
+}
+
+img {
+  border-radius: 50%;
+  margin: 1rem auto;
+}
+
+p {
+  margin: 0.5rem 0;
+}
+
+h3 {
+  margin-bottom: 1rem;
+}
+
+.icons {
+  margin: 2rem auto;
+}
+
+button {
+  margin-right: 3.5rem;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+span {
+  display: inline-block;
+  cursor: pointer;
+  padding: 0.5rem;
+  border: 1px solid black;
+  background-color: #4694dd;
+  margin-bottom: 1rem;
+  color: aliceblue;
+}
