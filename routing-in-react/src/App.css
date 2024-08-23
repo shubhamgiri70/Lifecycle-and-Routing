@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 100%;
+  background-color: rgb(130, 56, 42);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  width: 80%;
+  color: whitesmoke;
+  padding: 1rem;
+  margin: 2rem auto;
+  background-color: teal;
+  border-radius: 4px;
+  box-shadow: 0 4px 10px 3px rgba(0, 0, 0, 0.2);
+}
+
+header ul {
+  display: flex;
+  justify-content: center;
+}
+
+header ul li {
+  font-size: 1.2rem;
+  margin-right: 1rem;
+  list-style: none;
+  cursor: pointer;
+}
+
+header ul li:hover {
+  background-color: rgb(41, 177, 177);
+}
