@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 
 class Header extends React.Component {
   render() {
@@ -6,9 +7,15 @@ class Header extends React.Component {
       <>
         <header>
           <ul>
-            <li>Home</li>
-            <li>Contact</li>
-            <li>About</li>
+            <NavLink activeClassName="active" excat to="/">
+              <li>Home</li>
+            </NavLink>
+            <NavLink activeClassName="active" to="/contact">
+              <li>Contact</li>
+            </NavLink>
+            <NavLink activeClassName="active" to="/about">
+              <li>About</li>
+            </NavLink>
           </ul>
         </header>
       </>

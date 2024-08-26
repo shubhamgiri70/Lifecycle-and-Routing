@@ -35,3 +35,12 @@ header ul li {
 header ul li:hover {
   background-color: rgb(41, 177, 177);
 }
+
+h2 {
+  padding: 1rem;
+  color: aliceblue;
+}
+
+.active {
+  color: tomato;
+}
