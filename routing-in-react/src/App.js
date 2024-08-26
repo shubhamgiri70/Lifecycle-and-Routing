@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 class App extends React.Component {
   constructor(props) {
@@ -19,12 +20,13 @@ class App extends React.Component {
     }
     return (
       <>
-
         <ul>
           {this.state.data.map((post) => {
             return (
               <li key={post.id}>
-                <h2>{post.title}</h2>
+                <Link to={`/post/${post.id}`}>
+                  <h2>{post.title}</h2>
+                </Link>
               </li>
             );
           })}

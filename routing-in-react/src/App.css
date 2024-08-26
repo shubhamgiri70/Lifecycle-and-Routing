@@ -6,7 +6,7 @@
 
 body {
   max-width: 100%;
-  background-color: rgb(130, 56, 42);
+  background-color: rgb(214, 142, 128);
   font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -38,9 +38,16 @@ header ul li:hover {
 
 h2 {
   padding: 1rem;
-  color: aliceblue;
 }
 
 .active {
   color: tomato;
+}
+
+h1 {
+  padding: 1rem;
+}
+
+p {
+  padding: 1rem;
 }
