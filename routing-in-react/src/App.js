@@ -1,5 +1,4 @@
 import React from "react";
-import Header from "./components/Header";
 
 class App extends React.Component {
   constructor(props) {
@@ -15,9 +14,21 @@ class App extends React.Component {
       .then((data) => this.setState({ data }));
   }
   render() {
+    if (!this.state.data) {
+      return <h1>Loading.....</h1>;
+    }
     return (
       <>
-        <Header />
+
+        <ul>
+          {this.state.data.map((post) => {
+            return (
+              <li key={post.id}>
+                <h2>{post.title}</h2>
+              </li>
+            );
+          })}
+        </ul>
       </>
     );
   }
