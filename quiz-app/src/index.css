@@ -139,3 +139,69 @@ select {
   color: aliceblue;
   font-size: 1.4rem;
 }
+
+/* Question component style */
+
+.questions {
+  color: aliceblue;
+  text-align: center;
+}
+
+h2 {
+  padding: 1rem;
+}
+
+.questions button {
+  display: block;
+  margin: 1rem auto;
+  padding: 0.7rem 2rem;
+  border: 1px solid black;
+  background-color: aliceblue;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.questions button:hover {
+  background-color: rgb(36, 40, 45);
+  color: aliceblue;
+}
+
+.report-card {
+  max-width: 80%;
+  margin: 3rem auto;
+  background-color: rgb(247, 249, 250);
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.report-card h2 {
+  margin-bottom: 2rem;
+  text-align: center;
+  color: slategrey;
+}
+
+table {
+  width: 100%;
+  border: 1px solid slategrey;
+  border-collapse: collapse;
+}
+
+table th,
+table td {
+  padding: 0.8rem;
+  border: 1px solid slategrey;
+}
+
+table th {
+  background-color: rgb(36, 40, 45);
+  color: aliceblue;
+}
+
+table td {
+  text-align: center;
+}
+
+tfoot td {
+  font-weight: bold;
+}

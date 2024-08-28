@@ -1,12 +1,14 @@
 import React from "react";
-import Quiz from "./components/Quiz";
+import Quiz from "../src/components/Quiz.js";
 
-function App() {
-  return (
-    <>
-      <Quiz />
-    </>
-  );
+class App extends React.Component {
+  render() {
+    return (
+      <>
+        <Quiz />
+      </>
+    );
+  }
 }
 
 export default App;
